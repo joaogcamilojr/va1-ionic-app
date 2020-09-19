@@ -19,17 +19,24 @@
 			<ion-card-subtitle>Bem vindo ao</ion-card-subtitle>
 			<ion-card-title>Musikit</ion-card-title>
 		</ion-card-header>
-
-		<ion-card-content>
-			Acesse a listagem de <strong><a href="/musics">músicas</a></strong>.
-		</ion-card-content>
-
-		<ion-card-content>
-			Realize seu <strong><a href="/signup">cadastro</a></strong>.
-		</ion-card-content>
-
-		<ion-card-content>
-			Veja <strong><a href="/about">sobre</a></strong>.
-		</ion-card-content>
-	</ion-card>
+  </ion-card>
+  
+	<ion-text color="success">
+		<h1>Seu app de músicas</h1>
+  </ion-text>
+  
+  <p>
+    Escute os mais recentes lançamentos em nossa estação sempre atualizada com
+    as melhos novidades.
+  </p>
+  
+  <ion-list>
+    <ion-item *ngFor="let i of image">
+        <img src="{{ i.img }}" />
+    </ion-item>
+  </ion-list>
+  
+  <p>
+    <a href="/signup">Cadastre-se</a> e fique sempre atualizado com a nossa newsletter.
+  </p>
 </ion-content>
