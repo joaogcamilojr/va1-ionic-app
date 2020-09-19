@@ -20,17 +20,17 @@ export class AppComponent implements OnInit {
     {
       title: 'Músicas',
       url: '/musics',
-      icon: 'bookmarks'
+      icon: 'musical-notes'
 		},
     {
       title: 'Cadastro',
       url: '/signup',
-      icon: 'bookmarks'
+      icon: 'log-out'
 		},
     {
       title: 'Sobre',
       url: '/about',
-      icon: 'bookmarks'
+      icon: 'library'
 		}
   ];
 
