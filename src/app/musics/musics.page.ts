@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import music from '../../assets/images/music.jpg'
-
 @Component({
   selector: 'app-musics',
   templateUrl: './musics.page.html',

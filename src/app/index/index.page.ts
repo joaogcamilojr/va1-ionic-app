@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import music from '../../assets/images/music.jpg'
-
 @Component({
   selector: 'app-index',
   templateUrl: './index.page.html',
@@ -14,7 +12,7 @@ export class IndexPage implements OnInit {
 
   ngOnInit() {
 		this.image = [{
-			'img': music,
+			'img': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHWeon8rqu8w-5myvOF4BCM35ZJwjWKHYkEw&usqp=CAU',
 		}]
   }
 
